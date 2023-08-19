@@ -1,10 +1,27 @@
-.logo{
-   color: aqua;
-   border-color: black;
-   border-width: 2px;
-   border: solid;
-   
-   margin: 20px 20px 20px 20px;
-   background-color: red;
-    
-}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-item {
+    cursor: pointer;
+  }
+  
+  .content {
+    padding: 20px;
+  }
