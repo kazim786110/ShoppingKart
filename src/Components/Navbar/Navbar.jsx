@@ -2,7 +2,7 @@ import React from 'react'
 import '../Navbar/Navbar.css'
 
 const Navbar = () => {
-    var name="kazim"
+    var name="kazim "
     var count = 0
     const Mustafa = "Kazim"
     const handleOnclick = ()=>{
