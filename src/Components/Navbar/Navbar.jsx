@@ -2,8 +2,15 @@ import React from 'react'
 import '../Navbar/Navbar.css'
 
 const Navbar = () => {
+    var name="kazim"
+    var count = 0
     const Mustafa = "Kazim"
-    const handleOnclick = ()=>{console.log("hello WOkrd")}
+    const handleOnclick = ()=>{
+        count+=1
+
+        var multiname= name.repeat(count)
+    console.log(multiname)            }
+
     const Suri = ()=>{console.log("hello Suri")}
     
 
@@ -21,5 +28,6 @@ const Navbar = () => {
         
   )
 }
+
 
 export default Navbar
