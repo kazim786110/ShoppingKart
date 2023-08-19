@@ -4,6 +4,10 @@ import '../Navbar/Navbar.css'
 const Navbar = () => {
     var name="kazim "
     var count = 0
+  
+      const li=[]
+      const l2=[]
+  
     const Mustafa = "Kazim"
     const handleOnclick = ()=>{
         count+=1
